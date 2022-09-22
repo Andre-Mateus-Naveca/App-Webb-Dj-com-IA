@@ -1,0 +1,83 @@
+.heading {
+  font-size: 23px;
+  width: 100%;
+  margin: 0px;
+}
+
+.note {
+  font-size: 15px;
+  color: black;
+}
+
+body {
+  background-size: cover no-repeat;
+}
+
+.div_speed {
+  float: left;
+}
+
+.div_speed_img {
+  width: 200px;
+  border-radius: 100px;
+}
+
+#speed {
+  font-size: 23px;
+  margin: 15px;
+}
+
+.div_volume {
+  float: right;
+}
+
+.div_volume_img {
+  width: 200px;
+  border-radius: 100px;
+}
+
+#volume {
+  font-size: 23px;
+  margin: 15px;
+}
+
+canvas {
+  background-color: rgb(136, 216, 216);
+  border-radius: 50px 50px;
+  border: 5px solid black;
+}
+
+.playButton {
+  width: 150px;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.playButton:hover {
+  animation-name: transicao;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes transicao {
+  0% {
+    background-color: green;
+  }
+
+  25% {
+    background-color: red
+  }
+
+  50% {
+    background-color: darkkhaki;
+  }
+
+  75% {
+    background-color: blue;
+  }
+
+  100% {
+    background-color: green;
+  }
+}
